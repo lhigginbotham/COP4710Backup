@@ -1,0 +1,62 @@
+/* Global Styles */
+.dropdown-content li span {
+    color: #00bcd4;
+}
+
+/* index.php */
+.home {
+    margin: 20px 0 0 0;
+}
+
+.home .login-prompt .btn-large {
+    margin: 10px;
+}
+
+.home .filters .divider {
+    background-color: #00ADC3;
+}
+
+.home .filters label {
+    color: #FFFFFF;
+}
+
+.home .filters input[type="radio"]:not(:checked)+label:before {
+    border: 2px solid #FFFFFF;
+}
+
+.home .filters input[type="radio"]:checked+label:after {
+    border: 2px solid #00899B;
+    background-color: #00899B;
+}
+
+.home .filters .select-wrapper {
+    margin: 0;
+}
+
+.home .filters .select-wrapper input.select-dropdown {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* event.php */
+.event {
+    margin: 20px 0 0 0;
+}
+
+.event .event-details p i {
+    margin: 0 7px 0 0;
+}
+
+.event .event-main i {
+    margin: 0 7px 0 0;
+}
+
+.event .event-details .event-date p {
+    margin: 0 0 0 7px;
+}
+
+/* createevent.php */
+ #map-canvas {
+	height: 380px;
+	width: 500px;
+ }
